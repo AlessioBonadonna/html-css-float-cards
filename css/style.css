@@ -7,5 +7,73 @@
 html{
     font-family: Fredoka , sans-serif;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /***************************/
+.contenitore{
+    margin: 0 auto;
+    width: 70% ;
+    
+}
+h1{
+    text-align: center;
+    padding:30px 0px 30px 0px;
+    font-weight: bold; 
+    color:#E53170;
+    font-size: 2.4em;
+    text-shadow: #2d2d2d 0px 1px 0px;
+}
+.text-intro{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.conteinerbox{
+    display: flex;
+    float:calc(33%);
+    flex-wrap: wrap;
+
+}
+span{
+    border: 2px solid black;
+}
+.col{
+    width: 31%;
+    display: flex;
+    background-color: #2d2d2d;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 10px;
+}
+.col img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+ .conteinerbox h3 , .conteinerbox p {
+    color:white;
+}
+a{
+    color:rgb(76, 180, 232);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+.conteinerbox p{
+    font-size: 0.8em;
+    margin-top: 5px;
+
+}
+.conteinerbox h3{
+    font-size: 1em;
+}
+.conteinerbox div{
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
